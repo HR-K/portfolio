@@ -16,7 +16,9 @@ export default function Navbar() {
           <a href="#about" className="hover:text-blue-400">
             About
           </a>
-
+          <a href="#timeline" className="hover:text-blue-400">
+            Journey
+          </a>  
           <a href="#skills" className="hover:text-blue-400">
             Skills
           </a>
@@ -26,12 +28,12 @@ export default function Navbar() {
           </a>
 
           <a
-  href="https://github.com/HR-K"
-  target="_blank"
-  className="hover:text-blue-400"
->
-  GitHub
-</a>
+            href="https://github.com/HR-K"
+            target="_blank"
+            className="hover:text-blue-400"
+          >
+            GitHub
+          </a>
 
           <a
             href="mailto:kavalihemantharayudu@gmail.com"
