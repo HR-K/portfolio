@@ -15,16 +15,22 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Hemantha Rayudu | Cloud & Infrastructure Engineer",
   description:
-    "Cloud, Linux, Networking, Security and Automation portfolio of Hemantha Rayudu.",
+    "Portfolio of Hemantha Rayudu Kavali showcasing cloud infrastructure, networking, Linux, security, automation, and AI projects.",
+
   keywords: [
+    "Hemantha Rayudu",
     "Cloud Engineer",
+    "Infrastructure Engineer",
     "Linux",
     "Networking",
     "AWS",
     "Google Cloud",
     "DevOps",
     "Cybersecurity",
+    "TCS",
   ],
+
+  authors: [{ name: "Hemantha Rayudu Kavali" }],
 };
 
 export default function RootLayout({

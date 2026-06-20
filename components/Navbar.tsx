@@ -27,12 +27,28 @@ export default function Navbar() {
             Projects
           </a>
 
+          <a href="#certifications" className="hover:text-blue-400">
+            Certifications
+          </a>
+
+          <a href="#contact" className="hover:text-blue-400">
+            Contact
+          </a>
+
           <a
             href="https://github.com/HR-K"
             target="_blank"
             className="hover:text-blue-400"
           >
             GitHub
+          </a>
+
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            className="hover:text-blue-400"
+          >
+            Resume
           </a>
 
           <a

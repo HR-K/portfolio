@@ -1,14 +1,49 @@
-const skills = [
-  "Linux",
-  "Networking",
-  "AWS",
-  "Google Cloud",
-  "Python",
-  "Java",
-  "SQL",
-  "Git",
-  "Cybersecurity",
-];
+const skillGroups = {
+  Infrastructure: [
+    "Linux",
+    "Networking",
+  ],
+
+
+  Programming: [
+    "Python",
+    "Java",
+    "SQL",
+  ],
+
+  Tools: [
+    "Git",
+  ],
+
+  Security: [
+    "Cybersecurity",
+  ],
+
+  Cloud: [
+    "AWS EC2",
+    "AWS S3",
+    "AWS ELB",
+    "CloudWatch",
+  ],
+
+  Networking: [
+    "Network Protocols",
+    "Cisco Packet Tracer",
+    "Network Security",
+    "IoT Networking",
+  ],
+
+  Engineering: [
+    "Data Structures",
+    "UI/UX Design",
+  ],
+
+  Professional: [
+    "Leadership",
+    "Event Management",
+    "Team Collaboration",
+  ],
+};
 
 export default function Skills() {
   return (
@@ -20,14 +55,27 @@ export default function Skills() {
         Skills
       </h2>
 
-      <div className="flex flex-wrap gap-4">
+      <div className="grid gap-6 md:grid-cols-2">
 
-        {skills.map((skill) => (
+        {Object.entries(skillGroups).map(([category, skills]) => (
           <div
-            key={skill}
-            className="rounded-full border border-zinc-700 px-5 py-3 hover:border-blue-500"
+            key={category}
+            className="rounded-2xl border border-zinc-800 bg-zinc-950 p-6"
           >
-            {skill}
+            <h3 className="mb-4 text-xl font-semibold">
+              {category}
+            </h3>
+
+            <div className="flex flex-wrap gap-3">
+              {skills.map((skill) => (
+                <span
+                  key={skill}
+                  className="rounded-full border border-zinc-700 px-4 py-2 text-sm"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
         ))}
 
