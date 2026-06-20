@@ -2,59 +2,59 @@ const certifications = {
   Cloud: [
     {
       title: "Microsoft Azure Fundamentals",
-      file: "/certificates/Microsoft-Azure-Fundamentals-AZ900-Cert-Prep-1-Cloud-Concepts.pdf",
+      file: "/Certificates/Microsoft-Azure-Fundamentals-AZ900-Cert-Prep-1-Cloud-Concepts.pdf",
     },
     {
       title: "Introduction to Cloud Computing for IT Pros",
-      file: "/certificates/Introduction-to-Cloud-Computing-for-IT-Pros.pdf",
+      file: "/Certificates/Introduction-to-Cloud-Computing-for-IT-Pros.pdf",
     },
   ],
 
   Networking: [
     {
       title: "Cisco Networking Essentials",
-      file: "/certificates/CISCO-Networking-Academy-Netwroking-Essentials.pdf",
+      file: "/Certificates/CISCO-Networking-Academy-Netwroking-Essentials.pdf",
     },
     {
       title: "Cisco Networking Foundations",
-      file: "/certificates/Cisco-Networking-Foundations.pdf",
+      file: "/Certificates/Cisco-Networking-Foundations.pdf",
     },
     {
       title: "Network Addressing & Troubleshooting",
-      file: "/certificates/Network-Addressing-and-Basic-Troubleshooting-Badge.pdf",
+      file: "/Certificates/Network-Addressing-and-Basic-Troubleshooting-Badge.pdf",
     },
   ],
 
   Linux: [
     {
       title: "Learning Linux Command Line",
-      file: "/certificates/Learning-Linux-Command-Line.pdf",
+      file: "/Certificates/Learning-Linux-Command-Line.pdf",
     },
     {
       title: "Learning Linux Shell Scripting",
-      file: "/certificates/Learning-Linux-Shell-Scripting.pdf",
+      file: "/Certificates/Learning-Linux-Shell-Scripting.pdf",
     },
     {
       title: "Linux System Information & Directory Tools",
-      file: "/certificates/Linux-System-Information-and-Directory-Structure-Tools.pdf",
+      file: "/Certificates/Linux-System-Information-and-Directory-Structure-Tools.pdf",
     },
   ],
 
   Security: [
     {
       title: "IT Security Foundations",
-      file: "/certificates/IT-Security-Foundations-Core-Concepts.pdf",
+      file: "/Certificates/IT-Security-Foundations-Core-Concepts.pdf",
     },
     {
       title: "Tata Group Cybersecurity Analyst",
-      file: "/certificates/Tata-Group-Cybersecurity-Analyst.pdf",
+      file: "/Certificates/Tata-Group-Cybersecurity-Analyst.pdf",
     },
   ],
 
   Professional: [
     {
       title: "JPMorgan Chase Agile Job Simulation",
-      file: "/certificates/JPMorgan-Chase-&-Co.-Agile-Job-Simulation.pdf",
+      file: "/Certificates/JPMorgan-Chase-&-Co.-Agile-Job-Simulation.pdf",
     },
   ],
 };
